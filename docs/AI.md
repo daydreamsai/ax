@@ -34,7 +34,7 @@ const llm = ai({
 
 Supported providers include: `openai`, `anthropic`, `google-gemini`, `mistral`,
 `groq`, `cohere`, `together`, `deepseek`, `ollama`, `huggingface`, `openrouter`,
-`azure-openai`, `reka`, `x-grok`.
+`dreamsrouter`, `azure-openai`, `reka`, `x-grok`.
 
 ### 3. Choose models using presets (recommended)
 

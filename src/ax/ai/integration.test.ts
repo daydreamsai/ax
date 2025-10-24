@@ -42,4 +42,14 @@ describe('AI Factory Integration', () => {
       expect((llm as any).ai.apiURL).toBe('https://api.openai.com/v1');
     });
   });
+
+  describe('DreamsRouter provider', () => {
+    it('should configure DreamsRouter API URL without requiring API key', () => {
+      const llm = ai({
+        name: 'dreamsrouter',
+      });
+
+      expect((llm as any).ai.apiURL).toBe('https://dreamsrouter.ai/api/v1');
+    });
+  });
 });

@@ -15,7 +15,7 @@ Factory function to create an AI provider instance.
 
 ```typescript
 const llm = ai({
-  name: "openai" | "anthropic" | "google-gemini" | "mistral" | "groq" | "cohere" | "together" | "deepseek" | "ollama" | "huggingface" | "openrouter" | "azure-openai" | "reka" | "x-grok",
+  name: "openai" | "anthropic" | "google-gemini" | "mistral" | "groq" | "cohere" | "together" | "deepseek" | "ollama" | "huggingface" | "openrouter" | "dreamsrouter" | "azure-openai" | "reka" | "x-grok",
   apiKey?: string,
   config?: {
     model?: string,

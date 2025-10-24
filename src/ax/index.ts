@@ -276,6 +276,11 @@ import {
   type AxAIOpenAIResponsesWebSearchToolCall,
 } from './ai/openai/responses_types.js';
 import {
+  AxAIDreamsRouter,
+  type AxAIDreamsRouterArgs,
+  axAIDreamsRouterDefaultConfig,
+} from './ai/dreamsrouter/api.js';
+import {
   AxAIOpenRouter,
   type AxAIOpenRouterArgs,
   axAIOpenRouterDefaultConfig,
@@ -728,6 +733,7 @@ export { AxAIOpenAIResponses };
 export { AxAIOpenAIResponsesBase };
 export { AxAIOpenAIResponsesImpl };
 export { AxAIOpenAIResponsesModel };
+export { AxAIDreamsRouter };
 export { AxAIOpenRouter };
 export { AxAIRefusalError };
 export { AxAIReka };
@@ -829,6 +835,7 @@ export { axAIOpenAIFastConfig };
 export { axAIOpenAIResponsesBestConfig };
 export { axAIOpenAIResponsesCreativeConfig };
 export { axAIOpenAIResponsesDefaultConfig };
+export { axAIDreamsRouterDefaultConfig };
 export { axAIOpenRouterDefaultConfig };
 export { axAIRekaBestConfig };
 export { axAIRekaCreativeConfig };
@@ -1065,6 +1072,7 @@ export type { AxAIOpenAIResponsesWebSearchCallSearchingEvent };
 export type { AxAIOpenAIResponsesWebSearchToolCall };
 export type { AxAIOpenAIUrlCitation };
 export type { AxAIOpenAIUsage };
+export type { AxAIDreamsRouterArgs };
 export type { AxAIOpenRouterArgs };
 export type { AxAIRekaArgs };
 export type { AxAIRekaChatRequest };
